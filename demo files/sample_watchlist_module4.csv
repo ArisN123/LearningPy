@@ -1,0 +1,10 @@
+name,aliases,country,dob,source
+Mohammed Ali,Mohamed Ali|Muhammad Ali,EG,1971-03-12,sample_internal
+Ali Hassan,A. Hassan,IR,1975-03-21,OFAC_SDN
+Sara Petrov,Sara Petrova|S. Petrov,RU,1988-11-05,EU_CONSOLIDATED
+Müller Hoffmann,M. Hoffmann,DE,1969-07-30,sample_internal
+José Hernández,Jose Hernandez|J. Hernández,MX,1982-01-19,UN_CONSOLIDATED
+Omar Khalid,,SY,1990-09-02,OFAC_SDN
+  Chen Wei  ,Wei Chen,CN,1977-12-25,sample_internal
+Natalia Ivanova,N. Ivanova|Natasha Ivanova,RU,1985-06-14,EU_CONSOLIDATED
+Khalid Al-Rashid,Khalid Alrashid|K. Al Rashid,SA,1973-04-08,sample_internal

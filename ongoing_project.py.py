@@ -16,10 +16,9 @@ PEP Status: {PEP_status}
 Status: PENDING REVIEW'''
 
 def screen_customer(user_info,watchlist):
-    for person in watchlist:
-       # print(f'{user_info['name']} noramlised to {normalise(user_info['name'])}')
-        print(f'{person['name']} noramlised to {normalise(person['name'])}')
-        if normalise(user_info['name']) == normalise(person['name']) and user_info['dob'] == person['dob']:
+    normalised_user_name = normalise(user_info['name'])
+    for person in watchlist:     
+        if normalised_user_name == normalise(person['name']) and user_info['dob'] == person['dob']:
                 return person
 
 watchlist = [
